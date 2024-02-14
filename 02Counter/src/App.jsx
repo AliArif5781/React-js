@@ -10,6 +10,10 @@ function App() {
 
 function addValue(){
   if (Counter < 20) {
+    setCounter(Counter+1)        // agr hm 5 ,, setCounter(Counter+1) ,, lik da tu button pa click krna sa value 16 hogi ya 20 hogi.Yeh kahani useState() ki ha.UseState kya krta ha  apka jitna bi update bheajna ha UI ma  na ki UI variable ma bi unko batches ma bheajhta ha with fibre.batches ma bharta ha aur ak sat bheajta ha.tu jo itna sara setCounter(Counter+1) ka ak hi batch bana ga aur ak hi kam ko repeat kr rha ho.Agr ap chata ho ki button click krna pa 19 ho jai mean jitni baar setCounter(Counter+1) ha tu ap yeh function ka through kr skta ho setCounter(preCounter => preCounter+1) kr skta ho aur jitni baar addition krwna ho utni baar kr skta ho.For interview important.
+    setCounter(Counter+1)
+    setCounter(Counter+1)
+    setCounter(Counter+1)
     setCounter(Counter+1)
   }
   // setCounter(Counter+1)
