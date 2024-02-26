@@ -19,7 +19,7 @@ function App() {
 
     for (let i = 1; i <= length; i++) {
       let char = Math.floor(Math.random() * str.length +1);  // yeh krna sa index value mila gi.
-      pass += str.charAt(char)   // charAt() => Returns the character at the specified index.
+      pass += str.charAt(char)   // charAt() => Returns the character at the specified index.//
       
     }
     setPassword(pass)
