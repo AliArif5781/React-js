@@ -19,7 +19,11 @@ function App() {
   return (
     <>
      <h1 className='bg-green-400 text-black p-4 rounded-xl mb-5' >Tailwind Test</h1>
+<<<<<<< HEAD
      <Card username="Ali-Arif" btnText = "Click me" someObj = {myObj} myArr = {arr}/> {/* btnText = "Click me" App.jsx ma yeh props pass kr rha ha .aur Card.jsx ma props ko handle bi krna para ga. */}
+=======
+     <Card username="Ali-Arif" btnText = "Click me" someObj = {myObj} myArr = {arr}/>   {/* btnText = "Click me" App.jsx ma yeh props pass kr rha ha .aur Card.jsx ma props ko handle bi krna para ga. */}
+>>>>>>> cd7e6720756df459986bd09fb046e04954e1fdd5
      <Card username="Ali-Arif Developer"  btnText = "Visit me"/> {/* Do baar card lika ha but Delba name lika a raha ha tu hm name change kr skta ha by writing username ="Anyname" */}
      <Card/>
      <Card/>
