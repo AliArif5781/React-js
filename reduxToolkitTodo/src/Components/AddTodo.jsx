@@ -4,7 +4,7 @@ import {addTodo} from '../features/todo/todoSlice'
 // AddTodo.jsx is lya  banaya ki store ka andhr kuch add krna ha add kasa hota ha dispatch sa.Tu apko kuch na kuch dispatch krna preh ga.// jb bi values bheajna ka liya useDispatch() use hota ha.
 function AddTodo() {
 
-    const [input,setInput] = useState()
+    const [input,setInput] = useState('')
     const dispatch = useDispatch()           // dispatch kya krta ha , dispatch 1 reducer ko use krta hova store ka andhr changes krta ha
 
     const addTodoHandler = (e) =>{
