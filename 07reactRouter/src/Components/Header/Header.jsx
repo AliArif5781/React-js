@@ -12,7 +12,7 @@ export default function Header() {     //  yaha sa 1 hi line ma export default l
                             className="mr-3 h-12"
                             alt="Logo"
                         />
-                        <a></a>
+                        {/* <a></a> */}
                     </Link>
                     <div className="flex items-center lg:order-2">
                         <Link
