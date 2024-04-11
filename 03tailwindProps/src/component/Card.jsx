@@ -1,11 +1,11 @@
 // rfce likna sa line export thak like react functional component bana data ha.
 import React from 'react'
 
-<<<<<<< HEAD
+
 function card({username,btnText="ALi"}) {   {/* inside card ({handling kehta ha}) aur yeh hmna destructing ki ha.Props ko hata kr direct destructing kr di jati ha.direct hi apna username la liya in currly brasis {username} tu apko har jasa props.username ni likna para ga. direct username lijiya same hi kam hoga. */}
-=======
+
 function card({username,btnText="ALi"}) {   {/* /* inside card ({handling kehta ha}) aur yeh hmna destructing ki ha.Props ko hata kr direct destructing kr di jati ha.direct hi apna username la liya in currly brasis {username} tu apko har jasa props.username ni likna para ga. direct username lijiya same hi kam hoga. */}
->>>>>>> cd7e6720756df459986bd09fb046e04954e1fdd5
+
   // console.log("props",props);
   // console.log(props.username); // This work when we write props in function paranthesis.Also a andothe method
   console.log(username);//  we can use this when we write username="e.t.c in App.jsx and we write inside function parathesis{username}=> username khu lika khu ki hmna App.jsx ma <Card username="Ali-Arif"/> card ma username likha ha is lya ."
@@ -29,6 +29,6 @@ function card({username,btnText="ALi"}) {   {/* /* inside card ({handling kehta 
   </div>
 </div>
   )
-}
+}}
 
 export default card
