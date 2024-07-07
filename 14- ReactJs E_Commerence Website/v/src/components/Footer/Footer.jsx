@@ -16,7 +16,7 @@ const Footer = () => {
               <FaLinkedin size={30} />
             </a>
             <a
-              href="https://github.com/AliArif5781/React-js"
+              href="https://github.com/AliArif5781/React-js/tree/main/14-%20ReactJs%20E_Commerence%20Website"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-300 transition duration-300 transform hover:scale-110"
