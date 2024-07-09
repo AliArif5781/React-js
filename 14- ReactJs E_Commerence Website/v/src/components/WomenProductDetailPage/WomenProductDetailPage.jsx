@@ -34,13 +34,13 @@ const WomenProductDetailPage = () => {
           <div className='flex flex-col lg:flex-row items-center'>
             {/* image */}
             <div className='flex flex-1 justify-center items-center mb-8 lg:mb-0 sm:Pt-5'>
-              <img className='max-w-[150px] pt-20 lg:max-w-[300px] object-cover ' src={image} alt="" />
+              <img className=' flex  justify-center items-center max-w-[150px] pt-20 lg:max-w-[300px] object-cover ' src={image} alt="" />
             </div>
             {/* text */}
             <div className='flex-1  text-center lg:text-left'>
               <h1 className='text-[26px] font-medium mb-2 max-w-[450px] mx-auto lg:mx-0'>{title}</h1>
               <div className='text-xl text-red-500 font-medium mb-6'>${price}</div>
-              <p className='mb-8'>{description}</p>
+              <p className='mb-8 overflow-hidden text-ellipsis line-clamp-3 md:line-clamp-none'>{description}</p>
               <button onClick={() => addToCart(filteredProductt, filteredProductt.id)} className='bg-primary py-4 px-8 text-white p-5 hover:bg-primary/90'>Add To Cart</button>
             </div>
           </div>

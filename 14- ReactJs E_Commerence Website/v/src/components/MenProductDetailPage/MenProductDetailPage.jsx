@@ -40,7 +40,7 @@ const MenProductDetailPage = () => {
           <div className='flex-1 text-center lg:text-left'>
             <h1 className='text-[26px] font-medium mb-2 max-w-[450px] mx-auto lg:mx-0'>{title}</h1>
             <div className='text-xl text-red-500 font-medium mb-6'>${price}</div>
-            <p className='mb-8'>{description}</p>
+            <p className='mb-8 overflow-hidden text-ellipsis line-clamp-3 md:line-clamp-none'>{description}</p>
             <button onClick={() => addToCart(filteredProduct, filteredProduct.id)} className='bg-primary py-4 px-8 text-white hover:bg-primary/90'>Add To Cart</button>
           </div>
         </div>
