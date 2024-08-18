@@ -19,5 +19,4 @@ An object that holds the state of your application. It allows access to state vi
 
 ### Dispatch:
  A function used to send actions to the store to change the state.
- # Hello
-## Hello
+
